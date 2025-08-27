@@ -1,17 +1,29 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import WashingMachineAnimation from './WashingMachineAnimation'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 479)
+    }
+
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  // Проверяем, является ли текущая страница страницей проблемы
+  // Проверяем, являе��ся ли текущая страница страницей проблемы
   const isProblemPage = router.pathname && (
     router.pathname.includes('NESLIVAETIVODU') ||
     router.pathname.includes('NEGREETIVODU') ||
@@ -33,8 +45,8 @@ const Header = () => {
             <div className="frame1196-container103">
               <WashingMachineAnimation
                 className="frame1196-image10"
-                width={95}
-                height={92}
+                width={isMobile ? 141 : 95}
+                height={isMobile ? 141 : 92}
               />
               <span className="frame1196-text100">
                 <span
@@ -251,6 +263,36 @@ const Header = () => {
           }
           .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
             color: #87ceeb !important;
+          }
+
+          /* Глобальные стили для стиральной машины на мобильных */
+          @media (max-width: 479px) {
+            .frame1196-image10.washing-machine-wrapper {
+              position: absolute !important;
+              top: 9px !important;
+              left: 0 !important;
+              right: 0 !important;
+              margin: auto !important;
+              z-index: 1000 !important;
+              display: flex !important;
+              justify-content: center !important;
+              padding-top: 0 !important;
+              background-color: transparent !important;
+              width: 141px !important;
+              height: 141px !important;
+            }
+            .frame1196-image10.washing-machine-wrapper::before {
+              content: '';
+              position: absolute;
+              width: 145px;
+              height: 145px;
+              background: #ffffff;
+              border-radius: 50%;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%) translateX(25px);
+              z-index: -1;
+            }
           }
         `}
       </style>
@@ -728,6 +770,7 @@ const Header = () => {
               padding-right: 16px;
               flex-wrap: nowrap;
               justify-content: space-between;
+              position: relative;
             }
             .frame1196-container102 {
               flex: 1;
@@ -759,12 +802,16 @@ const Header = () => {
               line-height: 1.2;
             }
             .frame1196-image10 {
-              width: 40px;
-              height: 38px;
-              position: relative;
-              margin-right: 5px;
+              width: 120px !important;
+              height: 120px !important;
+              position: absolute;
+              top: 50% !important;
+              left: 50% !important;
+              transform: translate(-50%, 0%) !important;
+              z-index: 1000 !important;
               flex-shrink: 0;
-              display: none !important;
+              display: block !important;
+              background-color: transparent;
             }
             .frame1196-container104 {
               gap: 24px;

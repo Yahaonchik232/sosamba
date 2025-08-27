@@ -1,7 +1,7 @@
 import React from 'react'
 
 const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidden = false, paused = false }) => {
-  // Соотношение для масштабирования (оригинал 256x256)
+  // Соотношение для масшт��бирования (оригинал 256x256)
   const scale = Math.min(width, height) / 256;
   
   return (
@@ -15,13 +15,14 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
         justifyContent: 'center'
       }}
     >
-      <div 
-        className="washing-machine" 
-        style={{ 
+      <div
+        className="washing-machine"
+        style={{
           transform: `scale(${scale})`,
           transformOrigin: 'center'
         }}
       >
+        <div className="outer-white-circle" aria-hidden="true"></div>
         
         {/* Средний круг - 219x219, #FBFAF6, черная обводка 1px */}
         <div className="middle-circle"></div>
@@ -59,12 +60,32 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
       </div>
 
       <style jsx>{`
+        .washing-machine-wrapper {
+          position: relative;
+        }
         .washing-machine {
           position: relative;
           width: 256px;
           height: 256px;
+          z-index: 1;
         }
 
+        /* Mobile-only concentric white circle behind the washer */
+        .outer-white-circle {
+          position: absolute;
+          width: 145px;
+          height: 145px;
+          background: #ffffff;
+          border-radius: 50%;
+          z-index: 0;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: none;
+        }
+        @media (max-width: 479px) {
+          .outer-white-circle { display: block; transform: translate(-50%, -50%) translateX(25px); }
+        }
 
         /* Средний круг - 219x219, #FBFAF6, черная обводка 1px */
         .middle-circle {
