@@ -1,16 +1,16 @@
 import React from 'react'
 
-const WashingMachineAnimation = ({ className = '', width = 77, height = 74 }) => {
+const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidden = false, paused = false }) => {
   // Соотношение для масштабирования (оригинал 256x256)
   const scale = Math.min(width, height) / 256;
   
   return (
-    <div 
-      className={`washing-machine-wrapper ${className}`}
-      style={{ 
+    <div
+      className={`washing-machine-wrapper ${className} ${hidden ? 'washing-machine-hidden' : ''} ${paused ? 'washing-machine-paused' : ''}`}
+      style={{
         width: width,
         height: height,
-        display: 'flex',
+        display: hidden ? 'none' : 'flex',
         alignItems: 'center',
         justifyContent: 'center'
       }}
@@ -166,16 +166,85 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74 }) =>
           }
         }
 
+        /* Bubble animations */
+        .bubble {
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.6);
+          border-radius: 50%;
+          animation: bubble-float 3s infinite ease-in-out;
+        }
+
+        .bubble1 {
+          width: 8px;
+          height: 8px;
+          left: 20%;
+          animation-delay: 0s;
+        }
+
+        .bubble2 {
+          width: 12px;
+          height: 12px;
+          left: 60%;
+          animation-delay: 1s;
+        }
+
+        .bubble3 {
+          width: 6px;
+          height: 6px;
+          left: 80%;
+          animation-delay: 2s;
+        }
+
+        @keyframes bubble-float {
+          0% {
+            bottom: 0;
+            opacity: 0;
+            transform: translateX(0);
+          }
+          10% {
+            opacity: 1;
+          }
+          90% {
+            opacity: 1;
+          }
+          100% {
+            bottom: 100%;
+            opacity: 0;
+            transform: translateX(20px);
+          }
+        }
+
+        /* Animation control classes */
+        .washing-machine-hidden {
+          display: none !important;
+        }
+
+        .washing-machine-paused .water-wave-front,
+        .washing-machine-paused .water-wave-back,
+        .washing-machine-paused .bubble {
+          animation-play-state: paused !important;
+        }
+
         /* Mobile optimizations - simplify animations on smaller screens */
         @media (max-width: 768px) {
           .water-wave-front, .water-wave-back {
             animation-duration: 3s; /* slower animation on mobile */
           }
+          .bubble {
+            animation-duration: 4s; /* slower bubbles on mobile */
+          }
+        }
+
+        /* Hide washing machine on very small mobile devices */
+        @media (max-width: 479px) {
+          .washing-machine-wrapper {
+            display: none !important;
+          }
         }
 
         /* Respect user's motion preferences */
         @media (prefers-reduced-motion: reduce) {
-          .water-wave-front, .water-wave-back {
+          .water-wave-front, .water-wave-back, .bubble {
             animation: none !important;
           }
           .water {

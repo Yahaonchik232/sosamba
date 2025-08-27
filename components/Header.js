@@ -722,49 +722,101 @@ const Header = () => {
 
           @media (max-width: 479px) {
             .frame1196-container101 {
-              height: 100%;
-              min-height: 70px;
-              padding-left: var(--dl-layout-space-unit);
-              padding-right: var(--dl-layout-space-unit);
+              height: auto;
+              min-height: 115px;
+              padding-left: 16px;
+              padding-right: 16px;
+              flex-wrap: nowrap;
+              justify-content: space-between;
+            }
+            .frame1196-container102 {
+              flex: 1;
+              min-width: 0;
             }
             .frame1196-container103 {
-              gap: var(--dl-layout-space-twounits);
-              width: auto;
+              gap: 8px;
+              width: 100%;
               height: auto;
               position: relative;
               align-self: center;
-              max-width: 320px;
-              min-width: 300px;
+              max-width: none;
+              min-width: 0;
               flex-direction: row;
               justify-content: flex-start;
-              padding: 0 15px;
+              padding: 0 5px;
+              flex: 1;
             }
             .frame1196-text100 {
-              width: auto;
-              font-size: 15px;
-              max-width: none;
-              min-width: auto;
+              width: 88px;
+              font-size: 16px;
+              max-width: 88px;
+              min-width: 0;
               margin-right: 0px;
-              flex-shrink: 0;
-              white-space: nowrap;
+              flex-shrink: 1;
+              white-space: normal;
+              overflow: visible;
+              text-overflow: clip;
+              line-height: 1.2;
             }
             .frame1196-image10 {
-              width: 45px;
-              height: 43px;
+              width: 40px;
+              height: 38px;
               position: relative;
-              margin-right: 10px;
+              margin-right: 5px;
               flex-shrink: 0;
               display: none !important;
             }
             .frame1196-container104 {
-              gap: var(--dl-layout-space-oneandhalfunits);
+              gap: 24px;
               width: auto;
               height: auto;
               align-self: center;
+              flex-shrink: 0;
+              background-color: transparent;
             }
             .frame1196-image11 {
               width: 28px;
+              height: 26px;
               object-fit: cover;
+            }
+            .frame1196-burger-menu {
+              width: 30px;
+              height: 30px;
+              padding: 3px;
+            }
+          }
+
+          /* Дополнительные стили для очень маленьких экранов */
+          @media (max-width: 320px) {
+            .frame1196-container101 {
+              padding-left: 16px;
+              padding-right: 16px;
+              min-height: 115px;
+              justify-content: space-between;
+            }
+            .frame1196-container103 {
+              gap: 4px;
+              padding: 0 2px;
+            }
+            .frame1196-text100 {
+              font-size: 14px;
+              width: 88px;
+              max-width: 88px;
+              white-space: normal;
+              line-height: 1.2;
+            }
+            .frame1196-container104 {
+              gap: 24px;
+              background-color: transparent;
+            }
+            .frame1196-image11 {
+              width: 28px;
+              height: 26px;
+            }
+            .frame1196-burger-menu {
+              width: 30px;
+              height: 30px;
+              padding: 3px;
             }
           }
         `}
