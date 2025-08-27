@@ -33,43 +33,23 @@ const MainFooter = () => {
             <div className="frame1196-container232">
               <div className="frame1196-container233">
                 <p className="frame1196-text282">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Тел.: +38 (098) 467-13-52',
-                    }}
-                  ></span>
+                  <span className="frame1196-text-bold">Тел.:</span> +38 (098) 467-13-52
                 </p>
                 <p className="frame1196-text283">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Тел.: +38 (098) 467-13-52',
-                    }}
-                  ></span>
+                  <span className="frame1196-text-bold">Тел.:</span> +38 (098) 467-13-52
                 </p>
               </div>
             </div>
             <div className="frame1196-container234">
               <p className="frame1196-text284">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: 'Адрес: пл. Независимости, 1, Одесса, Одесская область, 65000',
-                  }}
-                ></span>
+                <span className="frame1196-text-bold">Адрес:</span> пл. Независимости, 1, Одесса, Одесская область, 65000
               </p>
               <p className="frame1196-text285">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: 'E-mail: remstirmash@gmail.com',
-                  }}
-                ></span>
+                <span className="frame1196-text-bold">E-mail:</span> remstirmash@gmail.com
               </p>
             </div>
             <p className="frame1196-text286">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Пн-Вс: 9:00-21:00',
-                }}
-              ></span>
+              <span className="frame1196-text-bold">Пн-Вс:</span> 9:00-21:00
             </p>
             <svg
               width="330"
@@ -269,6 +249,10 @@ const MainFooter = () => {
             text-align: center;
             font-family: 'Noto Serif SC';
             margin: 0;
+          }
+
+          .frame1196-text-bold {
+            font-weight: 600;
           }
 
           .frame1196-icon403 {
@@ -512,8 +496,8 @@ const MainFooter = () => {
               max-width: 400px;
               align-self: center;
               align-items: center;
-              padding-left: var(--dl-layout-space-unit);
-              padding-right: var(--dl-layout-space-unit);
+              padding-left: 24px;
+              padding-right: 24px;
               justify-content: center;
             }
 

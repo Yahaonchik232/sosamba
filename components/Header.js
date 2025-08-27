@@ -101,7 +101,7 @@ const Header = () => {
                   <span className="frame1196-text103">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Статьи',
+                        __html: 'Ст��тьи',
                       }}
                     ></span>
                   </span>
@@ -269,7 +269,7 @@ const Header = () => {
           @media (max-width: 479px) {
             .frame1196-image10.washing-machine-wrapper {
               position: absolute !important;
-              top: 9px !important;
+              top: 16px !important;
               left: 0 !important;
               right: 0 !important;
               margin: auto !important;
@@ -278,20 +278,9 @@ const Header = () => {
               justify-content: center !important;
               padding-top: 0 !important;
               background-color: transparent !important;
-              width: 141px !important;
-              height: 141px !important;
-            }
-            .frame1196-image10.washing-machine-wrapper::before {
-              content: '';
-              position: absolute;
-              width: 145px;
-              height: 145px;
-              background: #ffffff;
-              border-radius: 50%;
-              left: 50%;
-              top: 50%;
-              transform: translate(-50%, -50%) translateX(25px);
-              z-index: -1;
+              width: 148px !important;
+              height: 148px !important;
+              transform: translateX(10px) !important;
             }
           }
         `}
@@ -317,7 +306,7 @@ const Header = () => {
             background-color: #87ceeb;
           }
 
-          /* Основные стили хедера */
+          /* Основные стили хе��ера */
           .frame1196-container101 {
             width: 100%;
             height: auto;
@@ -713,7 +702,7 @@ const Header = () => {
           /* Медиа-запросы */
           @media (max-width: 1525px) {
             .frame1196-container103 {
-              gap: var(--dl-layout-space-oneandhalfunits);
+              gap: calc(var(--dl-layout-space-oneandhalfunits) + 10px);
               width: 340px;
               padding: 0 15px;
             }
@@ -802,12 +791,12 @@ const Header = () => {
               line-height: 1.2;
             }
             .frame1196-image10 {
-              width: 120px !important;
-              height: 120px !important;
+              width: 127px !important;
+              height: 127px !important;
               position: absolute;
               top: 50% !important;
               left: 50% !important;
-              transform: translate(-50%, 0%) !important;
+              transform: translate(-50%, 7px) !important;
               z-index: 1000 !important;
               flex-shrink: 0;
               display: block !important;

@@ -48,7 +48,7 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
         {/* Вертикальная ручка - 17x50, #87CEEB, черная обводка 1px */}
         <div className="handle"></div>
         
-        {/* SVG определения для волн воды */}
+        {/* SVG определе��ия для волн воды */}
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style={{ display: 'none' }}>
           <symbol id="wave">
             <path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"></path>
@@ -73,18 +73,17 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
         /* Mobile-only concentric white circle behind the washer */
         .outer-white-circle {
           position: absolute;
-          width: 145px;
-          height: 145px;
+          width: 256px;
+          height: 256px;
           background: #ffffff;
           border-radius: 50%;
           z-index: 0;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          top: 0;
+          left: 0;
           display: none;
         }
         @media (max-width: 479px) {
-          .outer-white-circle { display: block; transform: translate(-50%, -50%) translateX(25px); }
+          .outer-white-circle { display: block; }
         }
 
         /* Средний круг - 219x219, #FBFAF6, черная обводка 1px */
@@ -111,7 +110,7 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
           overflow: hidden;
         }
 
-        /* Вертикальная ручка - 17x50, #87CEEB, черная обводка 1px */
+        /* Вертикальная ручка - 17x50, #87CEEB, черная об��одка 1px */
         .handle {
           position: absolute;
           width: 17px;
@@ -256,12 +255,6 @@ const WashingMachineAnimation = ({ className = '', width = 77, height = 74, hidd
           }
         }
 
-        /* Hide washing machine on very small mobile devices */
-        @media (max-width: 479px) {
-          .washing-machine-wrapper {
-            display: none !important;
-          }
-        }
 
         /* Respect user's motion preferences */
         @media (prefers-reduced-motion: reduce) {

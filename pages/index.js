@@ -32,6 +32,20 @@ const Frame1196 = (props) => {
     setActiveFAQ(activeFAQ === faqId ? null : faqId)
   }
 
+  const scrollLeft = () => {
+    const container = document.querySelector('.frame1196-nashi-raboti')
+    if (container) {
+      container.scrollBy({ left: -300, behavior: 'smooth' })
+    }
+  }
+
+  const scrollRight = () => {
+    const container = document.querySelector('.frame1196-nashi-raboti')
+    if (container) {
+      container.scrollBy({ left: 300, behavior: 'smooth' })
+    }
+  }
+
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 767)
@@ -70,7 +84,7 @@ const Frame1196 = (props) => {
             <Link href="/neslivaetvodu">
               <a className="frame1196-container113">
                 <h3 className="frame1196-text112">
-                  Стиральная маш��на не сливает воду
+                  Стиральная маш��н�� не сливает воду
                 </h3>
                 <div className="frame1196-arrow10">
                   <svg
@@ -198,7 +212,7 @@ const Frame1196 = (props) => {
             <Link href="/zavisaetnaprogramme">
               <a className="frame1196-container118">
                 <h3 className="frame1196-text117">
-                  Стиральная машина зависает на прог��амме
+                  Стиральная машина зависает на прог����амме
                 </h3>
                 <div className="frame1196-arrow15">
                   <svg
@@ -714,7 +728,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text147">2</span>
                 </div>
                 <span className="frame1196-text148">
-                  Д���агностика ����борудования (при ремонте)
+                  Д���агностика �����борудования (при ремонте)
                 </span>
               </div>
               <div className="frame1196-container139">
@@ -1322,7 +1336,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text199">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена слив��ого или наливного шланга',
+                        __html: 'Замена сли����ого или наливного шланга',
                       }}
                     ></span>
                   </span>
@@ -1700,7 +1714,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="��ем��нт стирал��ных машин Bosch в Одессе - професс��он��льный сервис"
+                  alt="��ем��н�� стирал��ных машин Bosch в Одессе - професс��он��льный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
@@ -1732,7 +1746,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Р��монт стиральных машин Ardo в О��ессе - профессион��л��н��й сервис"
+                  alt="Р��монт стиральных машин Ardo в О��ессе - проф��ссион��л��н��й сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1756,7 +1770,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="��емонт стиральных машин Beko в Одесс�� - пр����фессиональ��ый ��ерви��"
+                  alt="��емонт стиральных машин Beko в Од��сс�� - пр����фессиональ��ый ��ерви��"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
@@ -1978,7 +1992,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text218">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Современное оборуд��вание по диагностике',
+                          __html: 'Со��ременное оборуд��вание по диагностике',
                         }}
                       ></span>
                     </h3>
@@ -2416,7 +2430,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text223">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Выполняем работу качественно и доступно, без скрытых доплат и ненужных расходов.',
+                      __html: 'Выполняем работу качественно и до��тупно, без скрытых доплат и ненужных расходов.',
                     }}
                   ></span>
                 </p>
@@ -3032,7 +3046,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container185">
               <div className="frame1196-container186">
                 <figcaption className="frame1196-text229">
-                  Установка нового у�����лот��ителя двер����ы стиралки Zanussi
+                  Установка нового у������лот��ителя двер����ы стиралки Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3081,7 +3095,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container199">
               <div className="frame1196-container200">
                 <figcaption className="frame1196-text236">
-                  В���сстановление ��правляющей п��аты на Siemens
+                  В���сстановление ����правляющей п��аты на Siemens
                 </figcaption>
               </div>
             </div>
@@ -3095,7 +3109,7 @@ to {transform: translateX(-2620px);}}
           </div>
         </div>
         <div className="frame1196-container203">
-          <div className="frame1196-container204">
+          <div className="frame1196-container204" onClick={scrollLeft}>
             <svg
               width="24"
               height="24"
@@ -3108,7 +3122,7 @@ to {transform: translateX(-2620px);}}
               ></path>
             </svg>
           </div>
-          <div className="frame1196-container205">
+          <div className="frame1196-container205" onClick={scrollRight}>
             <svg
               width="24"
               height="24"
@@ -3288,7 +3302,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Н�� в��е виды работ даем гарантию 6 месяцев, на замененные запчаст�� - 1 год. ���ара��тийный та��он выдается сразу после завершения ремонта',
+                      __html: 'Н�� в��е виды работ даем гарантию 6 месяцев, на ��амененные запчаст�� - 1 год. ���ара��тийный та��он выдается сразу после завершения ремонта',
                     }}
                   ></span>
                 </p>
@@ -3450,7 +3464,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость р��мо��та превышает 60% от цены новой м��шины - ��учше заменить. Мы всегда честно консультиру��м �� целесообразности рем��нт��.',
+                      __html: 'Если стоимость р��мо��та превышает 60% от цены новой м��шины - ��учше заменить. Мы всегда честно консультиру��м �� целесообразно��ти рем��нт��.',
                     }}
                   ></span>
                 </p>
@@ -3718,7 +3732,7 @@ to {transform: translateX(-2620px);}}
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Серви��ная мастерская',
+                __html: 'Серви��ная ��астерская',
               }}
             ></span>
           </h2>
@@ -3748,7 +3762,7 @@ to {transform: translateX(-2620px);}}
           <h2 className="frame1196-text274">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Отзывы',
+                __html: 'Отз��вы',
               }}
             ></span>
           </h2>
@@ -3787,7 +3801,7 @@ to {transform: translateX(-2620px);}}
             />
             <p className="frame1196-text276">
               �� долбоеб. я не могу жит�� без стиралки, по��ому что ког��а она
-              с��ома���а �� ����е могу плакать на взрыд во время отжима.
+              с��ома���а �� ����е могу пла��ать на взрыд во время отжима.
             </p>
             <svg
               width="330"
@@ -3939,7 +3953,7 @@ to {transform: translateX(-2620px);}}
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной м��шино��, которой 12
               лет))  О��ень круто!! ��лаг����дарю!! Она пала в руки мастера и
-              отдала��ь ем�� полностью, а н�� стала бры��ать��я. ��е знаю, что он т��м
+              отдала��ь ем�� полностью, а н�� ст��ла бры��ать��я. ��е знаю, что он т��м
               с ней делал, но сейчас она как шелковая стирает мой ситцев���е
               кружевно��� бел��е&lt;3&quot;
             </p>
@@ -4968,6 +4982,50 @@ to {transform: translateX(-2620px);}}
           @media (max-width: 767px) {
             .frame1196-container123 {
               background-image: none !important;
+            }
+          }
+
+          /* Remove shadow from nashi-raboti container on screens below 991px */
+          @media (max-width: 991px) {
+            .frame1196-nashi-raboti {
+              box-shadow: none !important;
+            }
+          }
+
+          /* Navigation arrows functionality on mobile */
+          @media (max-width: 767px) {
+            .frame1196-container203 {
+              display: flex;
+              gap: 20px;
+              margin-top: 20px;
+            }
+
+            .frame1196-container204,
+            .frame1196-container205 {
+              cursor: pointer;
+              background: #87ceeb;
+              border-radius: 50%;
+              padding: 10px;
+              transition: all 0.3s ease;
+              border: none;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .frame1196-container204:hover,
+            .frame1196-container205:hover {
+              background: #5bb8e8;
+              transform: scale(1.1);
+            }
+
+            .frame1196-nashi-raboti {
+              overflow-x: auto;
+              scroll-behavior: smooth;
+              flex-wrap: nowrap;
+              width: 100%;
+              min-width: 100%;
+              max-width: 100%;
             }
           }
           .frame1196-text122 {
