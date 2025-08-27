@@ -8,6 +8,7 @@ import Script from 'dangerous-html/react'
 import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
 import Header from '../components/Header'
+import WashingMachineAnimation from '../components/WashingMachineAnimation'
 import MainFooter from '../components/MainFooter'
 
 const Frame1196 = (props) => {
@@ -46,7 +47,12 @@ const Frame1196 = (props) => {
               <span className="frame1196-text110">в </span>
               <span className="frame1196-text111">Одессе!</span>
             </h1>
-            <img alt="image" src="/alt3.png" className="frame1196-image14" />
+            <div className="frame1196-image14">
+              <WashingMachineAnimation
+                width={141}
+                height={141}
+              />
+            </div>
             <button type="button" className="frame1196-button1 button">
               <span
                 dangerouslySetInnerHTML={{
@@ -125,7 +131,7 @@ const Frame1196 = (props) => {
                   </svg>
                 </div>
                 <img
-                  alt="Стиральная машина протекает"
+                  alt="Стиральная ��ашина протекает"
                   src="/problems 2/31-300h.webp"
                   loading="eager"
                   className="frame1196-image17"
@@ -554,7 +560,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text138">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Не нужно ждать несколь��о дней - ваша техника зараб��тает уже сегодня.',
+                      __html: 'Не нужно ждать несколь��о дней - ваша техника зараб���тает уже сегодня.',
                     }}
                   ></span>
                 </p>
@@ -1035,7 +1041,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text175">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Устранение по��тороннего предмета из барабан��, фильтра или насоса',
+                        __html: 'Устранение по��тороннего предмета из барабан��, фильтра и��и насоса',
                       }}
                     ></span>
                   </span>
@@ -1737,7 +1743,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных м��шин Atlant в Одессе - профессиональный сервис"
+                  alt="Рем��нт стиральных м��шин Atlant в Одессе - профессиональный сервис"
                   src="/brands/image%203823126-200h.webp"
                   loading="eager"
                   className="frame1196-image40"
@@ -1761,7 +1767,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Miele в Одессе - профессион��льный ��ервис"
+                  alt="Ремонт стиральных машин Miele в Одессе - профессион��льный ��ер��ис"
                   src="/brands/image%203823129-200h.webp"
                   loading="eager"
                   className="frame1196-image43"
@@ -1769,7 +1775,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стир��льных машин Indesit в Одессе - профе��сиональный серв��с"
+                  alt="Ремонт стир��льных машин Indesit в Одессе - профе��сион��льный серв��с"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
@@ -1860,7 +1866,7 @@ to {transform: translateX(-2620px);}}
                 <h3 className="frame1196-text216">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Теперь продать сти��аль��ую машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сложно</span><span style="color: #FFD84D;">!</span>',
+                      __html: 'Теперь продать сти��аль��ую машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сло��но</span><span style="color: #FFD84D;">!</span>',
                     }}
                   ></span>
                 </h3>
@@ -3587,7 +3593,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: '�� ш��ате т��лько опытные мастера с профильной подготовкой.',
+                    __html: '�� ш��ате т��лько опытные мастера с профиль��ой подготовкой.',
                   }}
                 ></span>
               </span>
@@ -3639,7 +3645,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Шум и вибрации — чаще всего износ амортизаторов или подшип��иков.',
+                    __html: 'Шум и вибрации — чаще всего износ амортизаторо�� или подшип��иков.',
                   }}
                 ></span>
               </span>
@@ -3648,7 +3654,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не запускается стирк����� — проверяем модуль управления или кнопку питания.',
+                    __html: 'Не запускается стирк����� — проверяем моду��ь управления или кнопку питания.',
                   }}
                 ></span>
               </span>
@@ -3930,7 +3936,7 @@ to {transform: translateX(-2620px);}}
               лет))  О��ень круто!! ��лагодарю!! Она пала в руки мастера и
               отдала��ь ем�� полностью, а н�� стала бры��ать��я. ��е знаю, что он т��м
               с ней делал, но сейчас она как шелковая стирает мой ситцев���е
-              кружевно��� белье&lt;3&quot;
+              кружевно��� бел��е&lt;3&quot;
             </p>
             <svg
               width="330"
@@ -4290,7 +4296,6 @@ to {transform: translateX(-2620px);}}
             width: 176px;
             height: 170px;
             display: none;
-            object-fit: cover;
           }
           .frame1196-button1 {
             color: rgb(255, 255, 255);
@@ -10017,6 +10022,7 @@ to {transform: translateX(-2620px);}}
               position: absolute;
               padding-top: 0px;
               justify-content: center;
+              align-items: center;
             }
             .frame1196-button1 {
               max-width: 320px;
@@ -11524,7 +11530,7 @@ to {transform: translateX(-2620px);}}
             padding-bottom: 0 !important;
           }
 
-          /* Показывать активные от��еты с эффектом разв��р��чивания */
+          /* Показывать активные от��еты с эффекто�� разв��р��чивания */
           .frame1196-otvet1.faq-active,
           .frame1196-otvet2.faq-active,
           .frame1196-otvet3.faq-active,
@@ -11574,7 +11580,7 @@ to {transform: translateX(-2620px);}}
             fill: #4EC8ED !important;
           }
 
-          /* При нажатии на всю карточку - стрелка становится голубой */
+          /* При нажатии на ��сю карточку - стрелка становится голубой */
           .frame1196-container113:active .frame1196-arrow10 svg path,
           .frame1196-container114:active .frame1196-arrow11 svg path,
           .frame1196-container115:active .frame1196-arrow12 svg path,

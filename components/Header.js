@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import WashingMachineAnimation from './WashingMachineAnimation'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -30,6 +31,11 @@ const Header = () => {
         <header className="frame1196-container101">
           <div className="frame1196-container102">
             <div className="frame1196-container103">
+              <WashingMachineAnimation
+                className="frame1196-image10"
+                width={95}
+                height={92}
+              />
               <span className="frame1196-text100">
                 <span
                   dangerouslySetInnerHTML={{
@@ -37,11 +43,6 @@ const Header = () => {
                   }}
                 ></span>
               </span>
-              <img
-                alt="image"
-                src="/bez%20ramk-200h.png"
-                className="frame1196-image10"
-              />
             </div>
           </div>
           <div className="frame1196-container104">
@@ -295,18 +296,19 @@ const Header = () => {
             justify-content: center;
           }
           .frame1196-container103 {
-            gap: var(--dl-layout-space-unit);
+            gap: var(--dl-layout-space-threeunits);
             flex: 0 0 auto;
-            width: 304px;
+            width: 420px;
             height: 91px;
             display: flex;
             position: relative;
             align-items: center;
-            white-space: normal;
+            white-space: nowrap;
             border-radius: var(--dl-layout-radius-radius4);
             overflow-wrap: break-word;
-            flex-direction: row-reverse;
-            justify-content: center;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 0 20px;
           }
           .frame1196-text100 {
             color: rgb(255, 255, 255);
@@ -319,9 +321,10 @@ const Header = () => {
             letter-spacing: 1.5px;
           }
           .frame1196-image10 {
-            width: 77px;
-            height: 74px;
+            width: 95px;
+            height: 92px;
             object-fit: cover;
+            margin-right: 15px;
           }
           .frame1196-container104 {
             display: none;
@@ -668,8 +671,9 @@ const Header = () => {
           /* Медиа-запросы */
           @media (max-width: 1525px) {
             .frame1196-container103 {
-              gap: var(--dl-layout-space-halfunit);
-              width: 232px;
+              gap: var(--dl-layout-space-oneandhalfunits);
+              width: 340px;
+              padding: 0 15px;
             }
             .frame1196-container104 {
               gap: var(--dl-layout-space-twounits);
@@ -695,12 +699,17 @@ const Header = () => {
 
           @media (max-width: 767px) {
             .frame1196-container103 {
-              gap: var(--dl-layout-space-halfunit);
+              gap: var(--dl-layout-space-twounits);
               width: auto;
               height: auto;
+              flex-direction: row;
+              justify-content: flex-start;
+              padding: 0 15px;
+              min-width: 280px;
             }
             .frame1196-text100 {
-              font-size: 22px;
+              font-size: 20px;
+              flex-shrink: 0;
             }
             .frame1196-container104 {
               width: 111px;
@@ -719,30 +728,33 @@ const Header = () => {
               padding-right: var(--dl-layout-space-unit);
             }
             .frame1196-container103 {
-              gap: var(--dl-layout-space-halfunit);
+              gap: var(--dl-layout-space-twounits);
               width: auto;
               height: auto;
               position: relative;
               align-self: center;
-              max-width: 116px;
-              min-width: auto;
-              flex-direction: row-reverse;
+              max-width: 320px;
+              min-width: 300px;
+              flex-direction: row;
+              justify-content: flex-start;
+              padding: 0 15px;
             }
             .frame1196-text100 {
-              width: 85px;
-              font-size: 16px;
-              max-width: 116px;
+              width: auto;
+              font-size: 15px;
+              max-width: none;
               min-width: auto;
               margin-right: 0px;
+              flex-shrink: 0;
+              white-space: nowrap;
             }
             .frame1196-image10 {
-              top: -157px;
-              left: 4px;
-              width: 33px;
-              height: 33px;
+              width: 45px;
+              height: 43px;
               position: relative;
-              margin-left: var(--dl-layout-space-halfunit);
-              margin-right: 0px;
+              margin-right: 10px;
+              flex-shrink: 0;
+              display: none !important;
             }
             .frame1196-container104 {
               gap: var(--dl-layout-space-oneandhalfunits);
