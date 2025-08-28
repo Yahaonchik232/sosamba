@@ -254,14 +254,18 @@ const Page = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="page-container13">
-                <figure className="page-container14">
+              <div className="page-container17">
+                <figure className="page-container18">
                   <img
                     alt="стиральная машина"
                     src="/100x100/image%203823140-900w.webp"
                     loading="eager"
-                    className="page-image38230521"
+                    className="page-image38230522"
                   />
+                  <span className="page-text19">
+                    <span>Первая помощь</span>
+                    <br></br>
+                  </span>
                 </figure>
                 <p className="vicetext page-text18">
                   <span className="page-text19">
@@ -366,7 +370,7 @@ const Page = (props) => {
                   Если люк не закрыт «до щелчка» или что-то мешает защёлке —
                   например, ткань прилипла к уплотнителю — машина распознает это
                   как неисправность и не запустит программу; отсутствие
-                  характерного щелч��а или свободно болтающаяся дверца могут
+                  характерного щелч���� или свободно болтающаяся дверца могут
                   указывать на механическую поломку замка. В таких случаях нужно
                   убедиться, что люк закрыт плотно и ничего не зажато; при
                   признаках повреждения замка или его ненадёжной фиксации замена
@@ -396,16 +400,16 @@ const Page = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="page-container20">
-                <figure className="page-container21">
+              <div className="page-container17">
+                <figure className="page-container18">
                   <img
                     alt="ремень стиральной машины"
                     src="/10/image%2038230551-800h.webp"
                     loading="lazy"
-                    className="page-image38230523"
+                    className="page-image38230522"
                   />
-                  <span className="page-text40">
-                    <span>Обрыв ремня</span>
+                  <span className="page-text19">
+                    <span>Приводной ремень</span>
                     <br></br>
                   </span>
                 </figure>
@@ -413,7 +417,7 @@ const Page = (props) => {
                   {' '}
                   Если двигатель работает, слышен гул, но барабан не вращается
                   или вращается вяло, вероятно, слетел или порван приводной
-                  ремень; при этом машина может выполнять другие эт��пы цик��а
+                  ремень; при этом машина может выполнять другие эт���пы цик��а
                   (налив, нагрев), но не передавать вращение на барабан. В таких
                   ситуациях при доступе к задней панели можно визуально
                   осмотреть ремень: если он перекинул��я, его аккуратно
@@ -447,15 +451,18 @@ const Page = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="page-container23">
-                <figure className="page-container24">
+              <div className="page-container17">
+                <figure className="page-container18">
                   <img
                     alt="щетки двигателя"
                     src="/5/image%203823055-900w.webp"
                     loading="lazy"
-                    className="page-image38230524"
+                    className="page-image38230522"
                   />
-                  <span className="page-text45">Щетк�� двигателя</span>
+                  <span className="page-text19">
+                    <span>Щетки двигателя</span>
+                    <br></br>
+                  </span>
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
@@ -499,15 +506,18 @@ const Page = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="page-container26">
-                <figure className="page-container27">
+              <div className="page-container17">
+                <figure className="page-container18">
                   <img
                     alt="блок управления"
                     src="/image%203823045-900w.webp"
                     loading="lazy"
-                    className="page-image38230525"
+                    className="page-image38230522"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text19">
+                    <span>Блок управления</span>
+                    <br></br>
+                  </span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
@@ -520,7 +530,7 @@ const Page = (props) => {
                   иногда устраняет временные сбои, но при повторяющихся ошибках
                   требуется профессиональная диагностика и ремонт элек��роники,
                   так как самостоятельные вмешательства в плату без опыта
-                  чреваты усугублением неисправности.
+                  чреваты усугублением неисправно��ти.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
