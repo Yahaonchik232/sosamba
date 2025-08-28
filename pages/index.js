@@ -306,7 +306,7 @@ const Frame1196 = (props) => {
                   </svg>
                 </div>
                 <img
-                  alt="Не отк��ывается дверца стиральной машины"
+                  alt="Не отк��ывается д��ерца стиральной машины"
                   src="/problems 2/91-300h.webp"
                   loading="eager"
                   className="frame1196-image23"
@@ -1025,7 +1025,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text172">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'от 450 грн',
+                        __html: 'о�� 450 грн',
                       }}
                     ></span>
                   </span>
@@ -1139,7 +1139,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text182">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
+                        __html: 'Вызвать маст��ра',
                       }}
                     ></span>
                   </span>
@@ -1382,7 +1382,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text203">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена приводного ремня',
+                        __html: 'За��ена приводного ремня',
                       }}
                     ></span>
                   </span>
@@ -1754,7 +1754,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных ма��ин Siemens в Оде���се - профессиональный сервис"
+                  alt="Ремонт стиральных ма��ин Siemens в Оде���се - профессиональный серв��с"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
@@ -1794,7 +1794,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стир��льных машин Indesit в Одессе - профе��сион��льный серв���с"
+                  alt="Ремонт стир��льных машин Indesit в ��дессе - профе��сион��льный серв���с"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
@@ -2583,7 +2583,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text224">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Лучшие мастера с многолетним стажем 7-10 лет',
+                          __html: 'Л��чшие мастера с многолетним стажем 7-10 лет',
                         }}
                       ></span>
                     </h3>
@@ -3302,7 +3302,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Н�� в��е виды работ даем гарантию 6 месяцев, на ��амененные запчаст�� - 1 год. ���ара��тийный та��он выдается сразу после завершения ремонта',
+                      __html: 'Н�� в��е виды работ даем гарантию 6 месяцев, на ��амененные запчаст�� - 1 год. ���ара��т��йный та��он выдается сразу после завершения ремонта',
                     }}
                   ></span>
                 </p>
@@ -3464,7 +3464,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость р��мо��та превышает 60% от цены новой м��шины - ��учше заменить. Мы всегда честно консультиру��м �� целесообразно��ти рем��нт��.',
+                      __html: 'Если стоимость р��мо��та превышает 60% от цены новой м��шины - ��учше заменить. Мы всегда честно консультиру��м �� целесообразно��ти ��ем��нт��.',
                     }}
                   ></span>
                 </p>
@@ -3571,14 +3571,14 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Стиральная машина — это техника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем требует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — это не просто разовая услуга, а реальна�� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
+                __html: 'Стиральная машина — это техника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем требует внимания. Механическ��е детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — это не просто разовая услуга, а реальна�� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
               }}
             ></span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название"&nbsp;работает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
+                __html: 'Под брендом "Ваше Название"&nbsp;работает команда масте��ов, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
               }}
             ></span>
           </p>
@@ -3621,7 +3621,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Используем сов��еменное оборудование и точную диагностику.',
+                    __html: 'Используем сов��еменное оборудование и точну�� диагностику.',
                   }}
                 ></span>
               </span>
@@ -3655,7 +3655,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Машина не слива��т в��ду — проблема с помпой или засор сл����вной системы.',
+                    __html: 'Машина не слива��т в��ду — проблема с помпой или засор сл����вной с��стемы.',
                   }}
                 ></span>
               </span>
@@ -3673,7 +3673,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не запускается стирк����� — проверяем моду��ь управления или кнопку питания.',
+                    __html: 'Не запускается стирк����� — проверяем моду��ь управления или кнопку пи��ания.',
                   }}
                 ></span>
               </span>
@@ -3709,7 +3709,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Регулярное техобслуживани�� — профилакти��а раз в 12 месяцев продлевае�� срок службы.',
+                    __html: 'Регулярное техобслуживан���� — профилакти��а раз в 12 месяцев продлевае�� срок службы.',
                   }}
                 ></span>
               </span>
@@ -3739,7 +3739,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше название"&nbsp;— это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
+                __html: 'Сервисный центр "Ваше название"&nbsp;— это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
               }}
             ></span>
           </p>
@@ -3953,7 +3953,7 @@ to {transform: translateX(-2620px);}}
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной м��шино��, которой 12
               лет))  О��ень круто!! ��лаг����дарю!! Она пала в руки мастера и
-              отдала��ь ем�� полностью, а н�� ст��ла бры��ать��я. ��е знаю, что он т��м
+              отдала��ь ем�� полностью, а н�� ст��ла бры��ать����. ��е знаю, что он т��м
               с ней делал, но сейчас он�� как шелковая стирает мой ситцев���е
               кружевно��� бел��е&lt;3&quot;
             </p>
@@ -4362,7 +4362,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #afa073;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4372,6 +4371,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container113:hover {
+            box-shadow: 0px 0px 5px 0px #afa073;
           }
           .frame1196-text112 {
             color: #ffffff;
@@ -4423,7 +4426,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4433,6 +4435,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container114:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text113 {
             color: rgb(255, 255, 255);
@@ -4484,7 +4490,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4494,6 +4499,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container115:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text114 {
             color: rgb(255, 255, 255);
@@ -4545,7 +4554,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4555,6 +4563,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container116:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text115 {
             color: rgb(255, 255, 255);
@@ -4606,7 +4618,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4616,6 +4627,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container117:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text116 {
             color: rgb(255, 255, 255);
@@ -4668,7 +4683,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4678,6 +4692,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container118:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text117 {
             color: rgb(255, 255, 255);
@@ -4729,7 +4747,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4739,6 +4756,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container119:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text118 {
             color: rgb(255, 255, 255);
@@ -4790,7 +4811,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4800,6 +4820,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container120:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text119 {
             color: rgb(255, 255, 255);
@@ -4851,7 +4875,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4861,6 +4884,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container121:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text120 {
             color: rgb(255, 255, 255);
@@ -4913,7 +4940,6 @@ to {transform: translateX(-2620px);}}
             max-width: 151px;
             min-width: 151px;
             align-self: center;
-            box-shadow: 0px 0px 5px 0px #d4d4d4;
             max-height: 217px;
             min-height: 217px;
             align-items: stretch;
@@ -4923,6 +4949,10 @@ to {transform: translateX(-2620px);}}
             padding-left: var(--dl-layout-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+          }
+          .frame1196-container122:hover {
+            box-shadow: 0px 0px 5px 0px #d4d4d4;
           }
           .frame1196-text121 {
             color: rgb(255, 255, 255);
@@ -5026,6 +5056,20 @@ to {transform: translateX(-2620px);}}
               width: 100%;
               min-width: 100%;
               max-width: 100%;
+            }
+
+            /* Уменьшение размера шрифта карточек на мобильных экранах */
+            .frame1196-text112,
+            .frame1196-text113,
+            .frame1196-text114,
+            .frame1196-text115,
+            .frame1196-text116,
+            .frame1196-text117,
+            .frame1196-text118,
+            .frame1196-text119,
+            .frame1196-text120,
+            .frame1196-text121 {
+              font-size: 14.5px;
             }
           }
           .frame1196-text122 {
@@ -8653,14 +8697,14 @@ to {transform: translateX(-2620px);}}
             position: absolute;
           }
 
-          /* У��ираем margin-bottom у блока с заголовком и кнопкой до 1618px */
+          /* У��ираем margin-bottom у блока с з��головком и кнопкой до 1618px */
           @media (max-width: 1618px) {
             .frame1196-container112 {
               margin-bottom: 0px;
             }
           }
 
-          /* Отдельный брейкпоинт для ��едера */
+          /* Отдельн��й брейкпоинт для ��едера */
           @media (max-width: 1525px) {
             .frame1196-container103 {
               gap: var(--dl-layout-space-halfunit);
@@ -11585,7 +11629,7 @@ to {transform: translateX(-2620px);}}
             box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
 
-          /* Анимация разворачивания из центра для ответов FAQ */
+          /* Ан��мация разворачива��ия из центра для ответов FAQ */
           .frame1196-otvet1,
           .frame1196-otvet2,
           .frame1196-otvet3,
@@ -11619,7 +11663,7 @@ to {transform: translateX(-2620px);}}
           }
 
 
-          /* Линейная аним��ция для иконок */
+          /* Линейная аним��ция для икон��к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,
