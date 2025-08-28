@@ -257,8 +257,8 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="рука и дверца стиралки"
-                    src="/6/image%203823050-800h.webp"
+                    alt="рука ребенка и стиральная машина"
+                    src="/9/1.webp"
                     loading="lazy"
                     className="page-image38230522"
                   />
@@ -293,13 +293,13 @@ const Page = (props) => {
               <div className="page-container20">
                 <figure className="page-container21">
                   <img
-                    alt="ремень стиральной машины"
-                    src="/10/image%2038230551-800h.webp"
+                    alt="Барабан стиралки"
+                    src="/9/2.webp"
                     loading="lazy"
                     className="page-image38230523"
                   />
                   <span className="page-text40">
-                    <span>Обрыв ремня</span>
+                    <span>Стиралка</span>
                     <br></br>
                   </span>
                 </figure>
@@ -335,12 +335,12 @@ const Page = (props) => {
               <div className="page-container23">
                 <figure className="page-container24">
                   <img
-                    alt="щетки двигателя"
-                    src="/5/image%203823055-900w.webp"
+                    alt="Прессостат"
+                    src="/2/presso.webp"
                     loading="lazy"
                     className="page-image38230524"
                   />
-                  <span className="page-text45">Щетк�� двигателя</span>
+                  <span className="page-text45">Прессостат</span>
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}

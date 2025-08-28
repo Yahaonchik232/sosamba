@@ -269,7 +269,7 @@ const Page = (props) => {
                   </span>
                   <span>
                     {' '}
-                    Выключите стиральную машину и отключите её от сети. Слейте
+                    Выключите стиральную машину и ��тключите её от сети. Слейте
                     воду из барабана с помощью аварийного шланга или через
                     фильтр (если таковой имеется). Это необходимо сделать перед
                     любыми пр��верками, чтобы вода не помешала осмотру и не
@@ -377,7 +377,7 @@ const Page = (props) => {
             </section>
             <section id="3" className="page-thirdproblem2">
               <div className="page-container19 zagolovkiskorobkoy">
-                <h3 className="zagolovki2">2. Проблемы с приводным ремнём.</h3>
+                <h3 className="zagolovki2">2. Проблемы с прив��дным ремнём.</h3>
                 <svg
                   width="330"
                   xmlns="http://www.w3.org/2000/svg"
@@ -666,7 +666,7 @@ const Page = (props) => {
               <p className="page-text51">
                 <span className="page-text52">
                   Если вы выполнили все рекомендации, но пробл��ма осталась —
-                  обратитесь в сервис
+                  обратитесь в серв��с
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -846,7 +846,7 @@ const Page = (props) => {
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибки, которые приводят к дорогостоящему ремонту (и как их
+                  Ошибки, которые приводят к дорогостоящему р��монту (и как их
                   избежать)
                 </span>
                 <div className="page-container45"></div>
@@ -2668,6 +2668,25 @@ const Page = (props) => {
             }
             .page-text71 {
               font-size: 14px;
+            }
+
+            .vicetext {
+              color: #232323;
+              font-size: 14.5px;
+              font-family: "Noto Serif SC";
+              font-weight: 500;
+              line-height: 2;
+              font-style: normal;
+              text-align: left;
+            }
+
+            @media(max-width: 767px) {
+              .vicetext {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+                font-stretch: normal;
+              }
             }
           }
         `}

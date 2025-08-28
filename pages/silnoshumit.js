@@ -279,8 +279,8 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="рука и дверца стиралки"
-                    src="/6/image%203823050-800h.webp"
+                    alt="транспортировочные болты"
+                    src="/4/bolti.webp"
                     loading="lazy"
                     className="page-image38230522"
                   />
@@ -315,8 +315,8 @@ const Page = (props) => {
               <div className="page-container20">
                 <figure className="page-container21">
                   <img
-                    alt="ремень стиральной машины"
-                    src="/10/image%2038230551-800h.webp"
+                    alt="уровень"
+                    src="/4/uroven.webp"
                     loading="lazy"
                     className="page-image38230523"
                   />
@@ -363,12 +363,12 @@ const Page = (props) => {
               <div className="page-container23">
                 <figure className="page-container24">
                   <img
-                    alt="щетки двиг��теля"
-                    src="/5/image%203823055-900w.webp"
+                    alt="амортизаторы"
+                    src="/4/amortizatori.webp"
                     loading="lazy"
                     className="page-image38230524"
                   />
-                  <span className="page-text45">Щетк�� двигателя</span>
+                  <span className="page-text45">Амортизаторы</span>
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
@@ -453,16 +453,16 @@ const Page = (props) => {
               <div className="page-container26">
                 <figure className="page-container27">
                   <img
-                    alt="блок управления"
-                    src="/image%203823045-900w.webp"
+                    alt="противовес"
+                    src="/4/protivoves.webp"
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text48">Противовес</span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Неравномерная или слишком большая загрузка – частая причина шума. Если вы кладёте в барабан большой комок вещей только с одной стороны, на отжиме машинка будет сильно болтаться. Распределяйте бельё равномерно по барабану. И не перегружайте стиралку по массе: если вещей много, попробуйте разделить стирку на две части или снизить обороты при отжиме. При перегрузк�� «скрипят» амортизаторы и барабан бь��тся о корпус из‑за избыточного веса.
+                  Противовесы — это массивные блоки внутри стиральной машины, которые крепятся к баку и помогают гасить вибрации при стирке и особенно при отжиме. Их задача — стабилизировать бак, чтобы он не раскачивался и не ударялся о корпус. Если один из противовесов ослаб, раскололся или открутился, баланс нарушается, и машина начинает сильно шуметь, греметь и «прыгать» по полу.Со временем крепёжные болты противовесов могут раскрутиться из-за постоянной вибрации. В некоторых случаях бетонный противовес трескается или крошится — это встречается на старых машинах или после сильных перегрузок бельём. Когда противовес не держится плотно, при высоких оборотах бак смещается и начинает сильно стучать по корпусу.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -497,12 +497,12 @@ const Page = (props) => {
               <div className="page-container26">
                 <figure className="page-container27">
                   <img
-                    alt="блок управления"
-                    src="/image%203823045-900w.webp"
+                    alt="Сальник"
+                    src="/3/salnik.webp"
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text48">Сальник</span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}

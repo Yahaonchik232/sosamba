@@ -277,8 +277,8 @@ const Page = (props) => {
               <div className="page-container13">
                 <figure className="page-container14">
                   <img
-                    alt="стиральная машина"
-                    src="/100x100/image%203823140-900w.webp"
+                    alt="мокрая рубашка"
+                    src="/7/1s.webp"
                     loading="eager"
                     className="page-image38230521"
                   />
@@ -336,8 +336,8 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="рука и дверца стиралки"
-                    src="/6/image%203823050-800h.webp"
+                    alt="сливной насос"
+                    src="/1/slivanasos.webp"
                     loading="lazy"
                     className="page-image38230522"
                   />
@@ -372,13 +372,13 @@ const Page = (props) => {
               <div className="page-container20">
                 <figure className="page-container21">
                   <img
-                    alt="ремень стиральной машины"
-                    src="/10/image%2038230551-800h.webp"
+                    alt="прессостат"
+                    src="/2/presso.webp"
                     loading="lazy"
                     className="page-image38230523"
                   />
                   <span className="page-text40">
-                    <span>Обрыв ремня</span>
+                    <span>Прессостат</span>
                     <br></br>
                   </span>
                 </figure>
@@ -458,12 +458,12 @@ const Page = (props) => {
               <div className="page-container26">
                 <figure className="page-container27">
                   <img
-                    alt="блок управления"
-                    src="/image%203823045-900w.webp"
+                    alt="Порвавшийся ремень"
+                    src="/10/image 38230551-800h.webp"
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text48">Соскочивший ремень</span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
@@ -502,12 +502,12 @@ const Page = (props) => {
               <div className="page-container26">
                 <figure className="page-container27">
                   <img
-                    alt="блок управления"
-                    src="/image%203823045-900w.webp"
+                    alt="двигатель"
+                    src="/10/asd.webp"
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text48">двигатель</span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
@@ -546,12 +546,12 @@ const Page = (props) => {
               <div className="page-container26">
                 <figure className="page-container27">
                   <img
-                    alt="блок управления"
-                    src="/image%203823045-900w.webp"
+                    alt="Датчик оборотов"
+                    src="/7/6s.webp"
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Блок управления</span>
+                  <span className="page-text48">Датчик оборотов</span>
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}

@@ -553,16 +553,16 @@
  
 .vicetext {
   fill: var(--dl-color-theme-neutral-dark);
-  color: 313131;
+  color: #232323;
   width: 100%;
   height: auto;
-  font-size: 15px;
+  font-size: 14.5px;
   align-self: stretch;
   font-style: normal;
   text-align: left;
   font-family: "Noto Serif SC";
   font-weight: 500;
-  line-height: 1.75;
+  line-height: 2;
 }
  
 .zagolovkiskorobkoy {
@@ -733,7 +733,7 @@
     font-size: 12px;
   }
   .vicetext {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
