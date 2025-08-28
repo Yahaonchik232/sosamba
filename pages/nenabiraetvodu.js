@@ -23,7 +23,7 @@ const Page = (props) => {
               />
               <h1 className="page-text10">
                 <span className="page-text11">
-                  Стиральная машина не набирает воду —
+                  Ст��ральная машина не набирает воду —
                 </span>
                 <span className="page-text12">
                   <span
@@ -128,7 +128,7 @@ const Page = (props) => {
                     className="page-vector2"
                   />
                   <a href="#2" className="page-link3 ge">
-                    1. Закрыт кран подачи воды / низкое давление
+                    1. Закрыт кран подачи воды / ��изкое давление
                   </a>
                 </li>
                 <li className="page-li4 list-item ge">
@@ -296,7 +296,7 @@ const Page = (props) => {
                   <span className="page-text28">4. Очистите сетчатый фильтр.</span>
                   <span> Перекройте воду, аккуратно открутите шланг у машины и достаньте сеточку-фильтр. Промойте её от загрязнений под сильной струёй или почистите щёткой. Соберите всё обратно.</span>
                   <br className="page-text30"></br>
-                  <span className="page-text31">5. Проверьте дверцу.</span>
+                  <span className="page-text31">5. Проверьте дверц��.</span>
                   <span> Убедитесь, что люк закрывается плотно и фиксируется. Если бельё мешает ��акрытию, правильно уложите вещи. Машина не начнёт залив, пока замок не сработает.</span>
                   <br className="page-text27"></br>
                   <span className="page-text28">6. Перезагрузите машину.</span>
@@ -342,6 +342,10 @@ const Page = (props) => {
                     loading="lazy"
                     className="page-image38230522"
                   />
+                  <span className="page-text19">
+                    <span>Кран подачи воды</span>
+                    <br></br>
+                  </span>
                 </figure>
                 <p className="vicetext">
                   {' '}
@@ -468,7 +472,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Впускной клапан – электромагнитный клапан внутри машины, который открывает и закрывает поток воды по команде платы. При его поломке клапан не открывается полностью и машина физически не может набрать нужное количество воды. Признаки: люк закрыт, машина включается, но вода не поступает или поступает очень мало, на дисплее может загореться код ошибки набора воды. Этот узел не подлежит ремонту — при подозрении на его поломку нужно вызвать мастера, который заменит клапан
+                  Впускной клапан – электромагнитный клапан внутри машины, который открывает и закрывает поток воды по команде платы. При его поломке клапан не открывается полностью и машина физически не может набрать нужное количество воды. Признаки: люк закрыт, машина включается, но вода не поступает или поступает очень мало, на дисплее может загореться код ошибки набора воды. Этот узел ��е подлежит ремонту — при подозрении на его поломку нужно вызвать мастера, который заменит клапан
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1270,10 +1274,23 @@ const Page = (props) => {
             max-height: 240px;
             min-height: 219px;
           }
-          .page-text19 {
+          .page-text19,
+          .page-text20,
+          .page-text21,
+          .page-text22,
+          .page-text23 {
+            width: 100%;
+            height: 100%;
+            display: block;
+            font-size: 15px;
+            max-width: 100%;
+            align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
-            font-weight: 700;
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 400;
+            margin-bottom: var(--dl-layout-space-halfunit);
+            padding: 5px;
           }
           .page-text21 {
             font-family: 'Noto Serif SC';

@@ -262,6 +262,10 @@ const Page = (props) => {
                     loading="lazy"
                     className="page-image38230522"
                   />
+                  <span className="page-text19">
+                    <span>Де��ская защита (Child Lock)</span>
+                    <br></br>
+                  </span>
                 </figure>
                 <p className="vicetext">
                   {' '}
@@ -1146,10 +1150,23 @@ const Page = (props) => {
             max-height: 240px;
             min-height: 219px;
           }
-          .page-text19 {
+          .page-text19,
+          .page-text20,
+          .page-text21,
+          .page-text22,
+          .page-text23 {
+            width: 100%;
+            height: 100%;
+            display: block;
+            font-size: 15px;
+            max-width: 100%;
+            align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
-            font-weight: 700;
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 400;
+            margin-bottom: var(--dl-layout-space-halfunit);
+            padding: 5px;
           }
           .page-text21 {
             font-family: 'Noto Serif SC';
